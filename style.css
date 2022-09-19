@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+  background-color: #8ec5fc;
+  background-image: linear-gradient(62deg, #8ec5fc 0%, #e0c3fc 100%);
+}
+.navigation-bar {
+  display: flex;
+  padding: 1.5rem;
+  list-style: none;
+  color: white;
+  font-size: larger;
+  background-color: #747adb;
+  margin: auto;
+}
+.link,
+#is-triangle-btn,
+#submit-answer-btn,
+#hypotenuse-btn,
+#area-btn {
+  text-decoration: none;
+  color: black;
+  border: 1px solid white;
+  border-radius: 0.3rem;
+  background-color: white;
+  padding: 0.3rem 1rem;
+}
+.heading {
+  color: white;
+  margin-bottom: 0.5rem;
+  margin-top: 2rem;
+}
+.header {
+  color: white;
+}
+.label-is {
+  margin: 1rem;
+  padding: 1 rem;
+  font-weight: bold;
+  font-size: larger;
+  color: white;
+}
+.heading-is {
+  margin: 1rem;
+  padding: 1rem;
+  color: white;
+}
+.angle-is {
+  margin: 1rem;
+  display: block;
+}
+.button-is {
+  margin: 1rem;
+  padding: 0.25rem;
+  border-radius: 0.5rem;
+  background-color: rgb(5, 15, 60);
+  color: white;
+}
+.output-is {
+  color: white;
+}
+.footer {
+  background-color: #747adb;
+  padding: 1rem 1rem;
+  text-align: center;
+  color: white;
+  width: 100vw;
+  position: fixed;
+  bottom: 0;
+  font-size: larger;
+}
+.footer,
+.social-link {
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem;
+  margin: auto;
+}
+.footer .footer-header {
+  font-weight: bold;
+  font-size: x-large;
+}
+.footer ul {
+  padding-inline-start: 0px;
+}
+.footer ul li {
+  display: inline;
+}
+main {
+  width: 70vw;
+  margin: 10px auto;
+  margin-bottom: 10rem;
+}
+input[type="number"] {
+  border-radius: 0.5rem;
+  border-color: #8ec5fc;
+  padding: 0.5rem 0.7rem;
+}

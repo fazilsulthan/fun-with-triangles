@@ -6,11 +6,16 @@ function calculateSumOfSquares(a, b) {
   return sumOfSquares;
 }
 function calculateHypotenuse() {
-  const sumOfSquares = calculateSumOfSquares(
-    Number(sides[0].value),
-    Number(sides[1].value)
-  );
-  const lengthOfHypotenuse = Math.sqrt(sumOfSquares);
-  outputEl.innerText = "The length of hypotenuse is" + " " + lengthOfHypotenuse;
+  if ((sides[0].value, sides[1].value >= 1)) {
+    const sumOfSquares = calculateSumOfSquares(
+      Number(sides[0].value),
+      Number(sides[1].value)
+    );
+    const lengthOfHypotenuse = Math.sqrt(sumOfSquares).toFixed(2);
+    outputEl.innerText =
+      "The length of hypotenuse is" + " " + lengthOfHypotenuse;
+  } else {
+    outputEl.innerText = "Enter a Positive Value";
+  }
 }
 hypotenuseBtn.addEventListener("click", calculateHypotenuse);

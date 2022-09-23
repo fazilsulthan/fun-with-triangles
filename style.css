@@ -43,10 +43,12 @@ body {
   margin: 1rem;
   padding: 1rem;
   color: white;
+  cursor: pointer;
 }
 .angle-is {
   margin: 1rem;
   display: block;
+  cursor: pointer;
 }
 .button-is {
   margin: 1rem;
@@ -54,6 +56,7 @@ body {
   border-radius: 0.5rem;
   background-color: rgb(5, 15, 60);
   color: white;
+  cursor: pointer;
 }
 .output-is {
   color: white;

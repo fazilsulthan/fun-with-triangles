@@ -6,7 +6,7 @@ function calculateArea(a, b) {
   return areaTriangle.toFixed(2);
 }
 function calculateAreaOfTriangle() {
-  if ((sides[0].value, sides[1].value >= 1)) {
+  if (sides[0].value > 0 && sides[1].value > 0) {
     const areaOfTriangle = calculateArea(
       Number(sides[0].value),
       Number(sides[1].value)
